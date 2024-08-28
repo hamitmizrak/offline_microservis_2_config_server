@@ -2,6 +2,9 @@
 [GitHub](https://github.com/hamitmizrak/offline_microservis_2_config_server)
 ---
 
+Config Server URL: http://localhost:8888/application/default
+GitHub           : https://github.com/hamitmizrak/offline_microservis_2_config_server
+
 ## Config Server
 - Mikroservislerin konfigürasyonlarını merkezi bir yerde yönetmek için kullanıdğımız yapıdır.
 - Bu config-server yapısı: Merkezi bir alan içinde Config Server üzerinden yapılandırmaları dinamik olarak alabilir.
