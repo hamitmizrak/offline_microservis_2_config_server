@@ -1,0 +1,21 @@
+# application.yml
+# http://localhost:8888/application/default
+# http://localhost:8888/application/dev
+# http://localhost:8888/application/prod
+
+# dev profili i\u00E7in genel ayarlar
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb_dev
+    username: devuser
+    password: devpassword
+
+logging:
+  level:
+    root: DEBUG
+
+# Geli\u015Ftirme ortam\u0131na \u00F6zg\u00FC di\u011Fer ayarlar
+# \u00D6rne\u011Fin, daha detayl\u0131 hata ay\u0131klama bilgileri veya test veritaban\u0131 ba\u011Flant\u0131lar\u0131

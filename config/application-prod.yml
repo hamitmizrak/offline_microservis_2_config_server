@@ -1,0 +1,21 @@
+# application.yml
+# http://localhost:8888/application/default
+# http://localhost:8888/application/dev
+# http://localhost:8888/application/prod
+
+# prod profili i\u00E7in genel ayarlar
+server:
+  port: 8083
+
+spring:
+  datasource:
+    url: jdbc:mysql://prod-db-server:3306/mydb_prod
+    username: produser
+    password: prodpassword
+
+logging:
+  level:
+    root: WARN
+
+# \u00DCretim ortam\u0131na \u00F6zg\u00FC di\u011Fer ayarlar
+# \u00D6rne\u011Fin, performans optimizasyonlar\u0131 veya g\u00FCvenlik yap\u0131land\u0131rmalar\u0131

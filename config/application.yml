@@ -1,0 +1,25 @@
+# application.yml
+# http://localhost:8888/application/default
+# http://localhost:8888/application/dev
+# http://localhost:8888/application/prod
+
+# T\u00FCm profiller i\u00E7in genel ayarlar
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb
+    username: root
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+logging:
+  level:
+    root: INFO
+
+# Genel ayarlar burada bulunur
+# \u00D6rne\u011Fin, ortak kullan\u0131lan servisler veya API ayarlar\u0131
