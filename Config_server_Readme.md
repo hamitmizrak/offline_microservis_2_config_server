@@ -6,7 +6,6 @@
 - Mikroservislerin konfigürasyonlarını merkezi bir yerde yönetmek için kullanıdğımız yapıdır.
 - Bu config-server yapısı: Merkezi bir alan içinde Config Server üzerinden yapılandırmaları dinamik olarak alabilir.
 
-
 # Spring Cloud(Config Client)
 - Spring Cloud Serverdan konfigürasyonları almak için kullanılan istemcidir.
 - Mikroservisler genellikle Config Client olarak yapılandırılır. 
